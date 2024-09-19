@@ -1,0 +1,41 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c2766;
+    color: white;
+}
+.logo{
+    padding-left: 100px;
+}
+.logo a{
+    text-decoration: none;
+    color: unset;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+.navbar p{
+    padding: 15px;
+    position: relative;
+    font-weight: 500;
+    
+}
+.navbar p:hover{
+    cursor: pointer;
+}
+.navbar p:hover::after{
+    content: '';
+    height: 3px;
+    width: 40%;
+    position: absolute;
+    top: 38px;
+    left: 17px;
+    background: #ced4e0;
+    
+}
